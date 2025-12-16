@@ -65,7 +65,7 @@
 
 ---------
 
-<div dir="ltr">
+<div class="ltr" markdown="1">
 
 # 📊 TSETMC Buy & Sell Value Checker Tool
 
