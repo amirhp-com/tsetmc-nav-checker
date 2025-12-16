@@ -1,3 +1,5 @@
+<img src="icon.png" width="300" style="border-radius: 4px; margin: auto; display: block;" />
+
 # 📊 ابزار بررسی ارزش خرید و فروش سهام در TSETMC
 
 این ابزار یک افزونه سبک و کاربردی است که به شما کمک می‌کند با **محاسبه خودکار مارجین اختلاف قیمت**، بررسی کنید آیا یک **سهام یا صندوق سرمایه‌گذاری** در شرایط فعلی **ارزش خرید دارد، ارزش فروش دارد یا در وضعیت خنثی قرار دارد**.
@@ -46,6 +48,20 @@
 - مقایسه قیمت بازار با ارزش واقعی
 - کمک به تصمیم‌گیری در خرید پله‌ای یا فروش منطقی
 - استفاده روزانه توسط سرمایه‌گذاران و معامله‌گران
+
+## ⚖️ سلب مسئولیت (Disclaimer)
+
+این ابزار صرفاً یک **ابزار کمکی تحلیلی** است و اطلاعات ارائه‌شده توسط آن به‌هیچ‌وجه **توصیه مالی، سرمایه‌گذاری یا معاملاتی** محسوب نمی‌شود.
+
+تمام محاسبات انجام‌شده بر اساس داده‌های موجود در صفحه و فرمول‌های ساده اختلاف قیمت (Margin / Premium) بوده و **دقت، صحت یا به‌روز بودن داده‌ها تضمین نمی‌شود**.
+
+استفاده از این ابزار به‌معنای پذیرش کامل این موضوع است که:
+- تصمیمات خرید، فروش یا نگهداری دارایی‌ها **صرفاً بر عهده کاربر** است
+- توسعه‌دهنده این ابزار **هیچ‌گونه مسئولیتی** در قبال سود، زیان، تصمیمات نادرست یا پیامدهای مالی احتمالی ندارد
+- شرایط بازار، نقدشوندگی، کارمزدها، مالیات و ریسک‌های سیستماتیک در این ابزار لحاظ نشده‌اند
+
+پیشنهاد می‌شود پیش از هرگونه تصمیم سرمایه‌گذاری، از **تحلیل‌های تکمیلی** و در صورت نیاز از **مشاوره متخصصان مالی** استفاده شود.
+
 
 ---------
 
@@ -97,3 +113,16 @@ It is intended as a **decision-support tool**, and all investment decisions rema
 - Comparing market price versus intrinsic value
 - Supporting logical buy or sell decisions
 - Daily use by investors and traders
+
+## ⚖️ Disclaimer
+
+This tool is provided solely as an **analytical support utility** and does **not constitute financial, investment, or trading advice**.
+
+All calculations are based on publicly available page data and simple margin/premium formulas. **No guarantee is given regarding the accuracy, completeness, or timeliness of the data or results**.
+
+By using this tool, you acknowledge and agree that:
+- All buy, sell, or hold decisions are made **entirely at your own risk**
+- The developer assumes **no responsibility or liability** for any financial losses, missed opportunities, or incorrect decisions
+- Market conditions, liquidity, fees, taxes, and systemic risks are **not accounted for** by this tool
+
+It is strongly recommended to perform **additional analysis** and, when appropriate, consult with **qualified financial professionals** before making any investment decisions.
