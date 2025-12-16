@@ -1,0 +1,12 @@
+# macOS system files
+__MACOSX/
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+
+# Node modules (if you use any build tools)
+node_modules/
