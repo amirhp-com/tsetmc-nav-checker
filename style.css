@@ -124,10 +124,40 @@
   border-radius: 12px;
   background: linear-gradient(
     to left,
-    hsl(340deg 100% 16%) 0%,
-    hsl(340deg 100% 32%) 8%,
-    hsl(340deg 100% 32%) 92%,
-    hsl(340deg 100% 16%) 100%
+    hsl(217deg 100% 16%) 0%,
+    hsl(217deg 100% 32%) 8%,
+    hsl(217deg 100% 32%) 92%,
+    hsl(217deg 100% 16%) 100%
+  );
+}
+
+.button-1-edge.buy {
+  background: linear-gradient(
+    to left,
+    hsl(120deg 100% 16%) 0%,
+    hsl(120deg 100% 32%) 8%,
+    hsl(120deg 100% 32%) 92%,
+    hsl(120deg 100% 16%) 100%
+  );
+}
+
+.button-1-edge.sell {
+  background: linear-gradient(
+    to left,
+    hsl(0deg 100% 16%) 0%,
+    hsl(0deg 100% 32%) 8%,
+    hsl(0deg 100% 32%) 92%,
+    hsl(0deg 100% 16%) 100%
+  );
+}
+
+.button-1-edge.neutral {
+  background: linear-gradient(
+    to left,
+    hsl(0deg 0% 40%) 0%,
+    hsl(0deg 0% 50%) 8%,
+    hsl(0deg 0% 50%) 92%,
+    hsl(0deg 0% 40%) 100%
   );
 }
 
@@ -138,13 +168,26 @@
   border-radius: 12px;
   font-size: 1.1rem;
   color: white;
-  background: hsl(345deg 100% 47%);
+  background: hsl(217deg 100% 47%);
   will-change: transform;
   transform: translateY(-4px);
   transition:
     transform
     600ms
-    cubic-bezier(.3, .7, .4, 1);
+    cubic-bezier(.3, .7, .4, 1),
+    background 300ms ease;
+}
+
+.button-1-front.buy {
+  background: #03c803;
+}
+
+.button-1-front.sell {
+  background: #f00000;
+}
+
+.button-1-front.neutral {
+  background: #8c8c8c;
 }
 
 @media (min-width: 768px) {

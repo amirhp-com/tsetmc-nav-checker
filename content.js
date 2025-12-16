@@ -28,14 +28,12 @@
     <div id="nav_result"></div>
   `;
   document.body.appendChild(pop);
-
+  if (!autoFilled) {
+    autoFilled = true;
+    setTimeout(autoFillFromPage, 800);
+  }
   btn.addEventListener("click", () => {
     pop.classList.toggle("show");
-
-    if (!autoFilled && pop.classList.contains("show")) {
-      autoFilled = true;
-      setTimeout(autoFillFromPage, 1000);
-    }
   });
 
   function autoFillFromPage() {
@@ -90,5 +88,21 @@
     const el = document.getElementById("nav_result");
     el.className = type;
     el.innerText = text;
+
+    // Update button color based on result
+    const btnEdge = btn.querySelector(".button-1-edge");
+    const btnFront = btn.querySelector(".button-1-front");
+
+    if (btnEdge && btnFront) {
+      // Remove all color classes
+      btnEdge.classList.remove("buy", "sell", "neutral");
+      btnFront.classList.remove("buy", "sell", "neutral");
+
+      // Add the appropriate color class
+      if (type !== "warn") {
+        btnEdge.classList.add(type);
+        btnFront.classList.add(type);
+      }
+    }
   }
 })();
