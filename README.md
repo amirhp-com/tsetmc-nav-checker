@@ -65,6 +65,8 @@
 
 ---------
 
+<div dir="ltr">
+
 # 📊 TSETMC Buy & Sell Value Checker Tool
 
 This tool is a lightweight and practical extension designed to help investors **automatically calculate price margin differences** and determine whether a **stock or investment fund** is currently **worth buying, worth selling, or neutral**.
@@ -126,3 +128,5 @@ By using this tool, you acknowledge and agree that:
 - Market conditions, liquidity, fees, taxes, and systemic risks are **not accounted for** by this tool
 
 It is strongly recommended to perform **additional analysis** and, when appropriate, consult with **qualified financial professionals** before making any investment decisions.
+
+</div>

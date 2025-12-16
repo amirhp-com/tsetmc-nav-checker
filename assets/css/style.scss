@@ -11,3 +11,15 @@ body {
   direction: rtl !important;
   font-family: Tahoma, Arial, sans-serif !important;
 }
+.btn {
+	margin-left: 1rem;
+}
+
+.ltr {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+.ltr p, .ltr h1, .ltr h2, .ltr h3, .ltr h4, .ltr h5, .ltr h6 {
+  text-align: left !important;
+}
