@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "TSETMC NAV Checker",
+  "version": "1.0",
+  "description": "Auto fill and check NAV vs Buy/Sell price for funds on TSETMC",
+  "content_scripts": [
+    {
+      "matches": ["https://tsetmc.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
